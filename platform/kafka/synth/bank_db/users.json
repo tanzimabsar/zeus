@@ -1,0 +1,37 @@
+{
+  "type": "array",
+  "length": {
+    "type": "number",
+    "range": {
+      "low": 1,
+      "high": 2,
+      "step": 1
+    },
+    "subtype": "u64"
+  },
+  "content": {
+    "type": "object",
+    "amount": {
+      "type": "number",
+      "range": {
+        "low": 100,
+        "high": 101,
+        "step": 1
+      },
+      "subtype": "u64"
+    },
+    "timestamp": {
+      "type": "string",
+      "pattern": "[a-zA-Z0-9]*"
+    },
+    "user_id": {
+      "type": "number",
+      "range": {
+        "low": 1,
+        "high": 2,
+        "step": 1
+      },
+      "subtype": "u64"
+    }
+  }
+}
